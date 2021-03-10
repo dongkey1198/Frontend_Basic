@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+}
+
+div {
+  width: 300px;
+  height: 300px;
+  margin-top: 10px;
+  cursor: pointer;
+  background-image: url(./img/carrot.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+/* div:hover {
+  background-color: rgba(75, 74, 74, 0.5);
+  border: 1px solid grey;
+} */
+
+.btn {
+  position: fixed;
+  width: 120px;
+  height: 50px;
+  font-size: 15px;
+  font-weight: 700;
+  background-color: khaki;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgb(226, 208, 40);
+}
+
+.rabbit {
+  background-image: url(./img/rabbit.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
